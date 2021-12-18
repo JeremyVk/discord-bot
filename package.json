@@ -1,0 +1,34 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.9.0",
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.7.5",
+    "@google-cloud/text-to-speech": "^3.4.0",
+    "discord-api-types": "^0.25.2",
+    "discord-player": "^5.2.0",
+    "discord-tts": "^1.2.1",
+    "discord.js": "^13.3.1",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "opusscript": "^0.0.8",
+    "say": "^0.16.0",
+    "talkify-tts": "^3.9.0",
+    "ytdl-core": "^4.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
